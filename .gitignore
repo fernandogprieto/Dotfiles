@@ -1,0 +1,190 @@
+#
+# 
+#  ________    ______  _______    
+# |_   __  | .' ___  ||_   __ \   𝘍𝘦𝘳𝘯𝘢𝘯𝘥𝘰 𝘎. 𝘗𝘳𝘪𝘦𝘵𝘰
+#   | |_ \_|/ .'   \_|  | |__) |  𝘩𝘵𝘵𝘱𝘴://𝘨𝘪𝘵𝘩𝘶𝘣.𝘤𝘰𝘮/𝘧𝘦𝘳𝘯𝘢𝘯𝘥𝘰𝘨𝘱𝘳𝘪𝘦𝘵𝘰/
+#   |  _|   | |   ____  |  ___/   𝘩𝘵𝘵𝘱𝘴://𝘵𝘸𝘪𝘵𝘵𝘦𝘳.𝘤𝘰𝘮/𝘧𝘦𝘳𝘯𝘢𝘯𝘥𝘰𝘨𝘱𝘳𝘪𝘦𝘵𝘰
+#  _| |_    \ `.___]  |_| |_      
+# |_____|    `._____.'|_____| 
+#
+#                                
+# dotphiles : https://github.com/fernandogprieto/dotfiles/
+# Ignore these files globally in this repo.
+#
+
+
+### Linux ###
+*~
+.gnupg/*
+!.gnupg/*.conf
+.ssh/
+
+### Python ### 
+__pycache__/
+*.py[cod]
+*$py.class
+/tsconfig.json
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.sage.py
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory
+.ipynb_checkpoints.txt
+.python-version
+__pypackages__/
+
+
+### Editor ###/
+.vs/
+/.vscode/
+/.idea/
+.vscode/settings.json
+/.favorites.json
+.vscode/.history/
+*.code-workspace
+*.app
+.snapshots/*
+
+
+/build/
+/.deps/
+/tmp/
+/.clangd/
+/.cache/clangd/
+/.ccls-cache/
+/src/nvim/po/vim.pot
+/src/nvim/po/*.ck
+/.vim-src
+*.rej
+.luacheckcache
+/src/nvim/testdir/*.tlog
+tags
+/runtime/doc/*.html
+/runtime/doc/tags.ref
+/runtime/doc/errors.log
+/runtime/doc/*.mpack
+/tmp-*-doc
+/vim-*.patch
+
+[._]*.s[a-v][a-z]
+Session.vim
+Sessionx.vim
+tags
+[._]*.un~
+
+
+### CLOUD ###
+dist/
+pack/
+.BUILD_COMPLETED
+.local-npm/
+.tools/
+coverage/
+.nyc_output
+.nycrc
+.LAST_BUILD
+result
+.direnv
+doc/index.html
+vm
+iso
+doi
+pkgs/_sources/.shake*
+
+
+.vagrant/
+.vagrant.d/
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+
+### SNAP ###
+parts/
+prime/
+stage/
+*.snap
+/snap/.snapcraft/
+jabref_source.tar.bz2
+
+### Common Caches ###
+.android/
+.anydesk/
+.Genymobile/
+.*cache/
+.node-gyp/
+.npm/
+.thumbnails/
+.wget-hsts
+
+# Misc commonly generated files
+.bash_history
+.bazaar/
+.dbus/
+.python_history
+.sqlite_history
+.psql_history
+.subversion/
+.wine/
+.Xauthority
+.xsession-errors
+	
+# Misc junk files
+*.bak
+*.log
+*.swp
+*.tmp
+*.com
+*.class
+*.exe
+*.so
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+.DS_Store
+.DS_Store?
+._*
+.Trashes
+Thumbs.db
+
+## If you want more information I used two websites:
+## https://www.toptal.com/developers/gitignore 
+## https://github.com/github/gitignore.
