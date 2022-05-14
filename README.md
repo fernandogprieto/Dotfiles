@@ -1,4 +1,4 @@
-# Dotfiles
+# FGP's Dotfiles
 
 This repository contains my personal dotfiles. 
 
