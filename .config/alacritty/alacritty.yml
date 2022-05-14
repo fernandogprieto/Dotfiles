@@ -1,0 +1,85 @@
+#  ________    ______  _______    
+# |_   __  | .' ___  ||_   __ \   𝘍𝘦𝘳𝘯𝘢𝘯𝘥𝘰 𝘎. 𝘗𝘳𝘪𝘦𝘵𝘰
+#   | |_ \_|/ .'   \_|  | |__) |  𝘩𝘵𝘵𝘱𝘴://𝘨𝘪𝘵𝘩𝘶𝘣.𝘤𝘰𝘮/𝘧𝘦𝘳𝘯𝘢𝘯𝘥𝘰𝘨𝘱𝘳𝘪𝘦𝘵𝘰/
+#   |  _|   | |   ____  |  ___/   𝘩𝘵𝘵𝘱𝘴://𝘵𝘸𝘪𝘵𝘵𝘦𝘳.𝘤𝘰𝘮/𝘧𝘦𝘳𝘯𝘢𝘯𝘥𝘰𝘨𝘱𝘳𝘪𝘦𝘵𝘰
+#  _| |_    \ `.___]  |_| |_      
+# |_____|    `._____.'|_____| 
+#
+
+env:
+  TERM: xterm-256color
+window:
+  padding:
+    x: 20
+    y: 20
+  startup_mode: Windowed
+  dynamic_title: true
+  class:
+    instance: Alacritty
+    general: Alacritty
+  gtk_theme_variant: None
+scrolling:
+  history: 5000
+  multiplier: 3
+font:
+  normal:
+      family: SpaceMono Nerd Font 
+      style: Regular
+  size: 10
+# Space Duck
+colors:
+# Default colors
+  primary:
+    background: '#0f111b'
+    foreground: '#ecf0c1'
+# Normal colors
+  normal:
+    black:   '#000000'
+    red:     '#e33400'
+    green:   '#5ccc96'
+    yellow:  '#b3a1e6'
+    blue:    '#00a3cc'
+  normal:
+    black:   '#000000'
+    red:     '#e33400'
+    green:   '#5ccc96'
+    yellow:  '#b3a1e6'
+    blue:    '#00a3cc'
+    magenta: '#f2ce00'
+    cyan:    '#7a5ccc'
+    white:   '#686f9a'
+
+  # Bright colors
+  bright:
+    black:   '#686f9a'
+    red:     '#e33400'
+    green:   '#5ccc96'
+    yellow:  '#b3a1e6'
+    blue:    '#00a3cc'
+    magenta: '#f2ce00'
+    cyan:    '#7a5ccc'
+    white:   '#f0f1ce'
+
+bell:
+  animation: EaseOutExpo
+
+  duration: 0
+
+  color: '#ffffff'
+
+cursor:
+  style: Beam
+
+  blinking: true
+  blink_interval: 750
+
+  unfocused_hollow: false
+
+  thickness: 0.15
+
+live_config_reload: true
+
+shell:
+  program: /usr/bin/bash
+
+# key_bindings: (soon)
