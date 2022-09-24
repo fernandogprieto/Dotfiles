@@ -37,10 +37,36 @@ cd qtile/
 pip3 install .
 sudo reboot
 
+
+
+Ubuntu
+sudo apt-get install python3 python3-pip
+sudo apt-get install python3-cffi python3-cairocffi libpangocairo-1.0-0 xserver-xorg python3-xcffib libwlroots-dev 
+pip install dbus-next pywlroots pywayland xkbcommon
+pip install xcffib
+pip install qtile
+
+
 WARNING: The script qtile is installed in '/home/pianist/.local/bin' which is not on PATH.
   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
 
  export PATH="/usr/local/bin:$PATH"
+ export PATH="~/.local/bin:$PATH"
 source ~/.bash_profile
 echo $PATH
+
+
+
+/usr/share/xsession 
+qtile.desktop
+[Desktop Entry]
+Name=Qtile
+Comment=Qtile Session
+Exec=python3 /home/user/.local/bin/qtile
+Type=Application
+Keywords=wm;tiling
+
+
+
+
 
