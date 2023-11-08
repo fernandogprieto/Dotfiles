@@ -47,7 +47,7 @@ pip install xcffib
 pip install qtile
 
 
-WARNING: The script qtile is installed in '/home/pianist/.local/bin' which is not on PATH.
+WARNING: The script qtile is installed in '/home/$USER/.local/bin' which is not on PATH.
   Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
 
  export PATH="/usr/local/bin:$PATH"
