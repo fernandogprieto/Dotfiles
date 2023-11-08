@@ -1,13 +1,15 @@
 # FGP's Dotfiles
 
-This repository contains my personal dotfiles. 
+This repository contains my personal dotfiles.
 
-* Table of Contents :toc:
+## Table
+
 My Window Manager Configs
+
 - qtile
 
 Configs Of Mine
--alactricity
--fish
--nvim
- 
+
+- alactricity
+- fish
+- nvim
